@@ -2,6 +2,8 @@
 A simple DevOps project made on Nodejs 
 Uses Docker for Containerizaton and Terraform for Iac 
 
+The Nodejs WebApp is a basic webapp
+
 Clone this repo: ```git clone https://github.com/Sameer-Shaikh-169/DevOps_Simple_Project.git```
 
 Install dependencies using npm javascript package manager: ```npm install```
