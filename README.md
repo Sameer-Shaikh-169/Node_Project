@@ -31,6 +31,13 @@ Then apply the Terraform Configuration using : ```terraform apply```
 
 To stop and remove resources created by Terraform use : ```terraform destroy```
 
+Delete the Docker Cotainers before applying Terraform Configuration using: ```docker rm (conatiner name/id)```
+
+I've Encountered an Error in Terraform which I was not able to solve
+
+This was the Error:
+
+
 
 
 
