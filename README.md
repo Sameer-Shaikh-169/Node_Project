@@ -43,12 +43,14 @@ Then apply the Terraform Configuration using : ```terraform apply```
 
 To stop and remove resources created by Terraform use : ```terraform destroy```
 
-Delete the Docker Cotainers before applying Terraform Configuration using: ```docker rm (conatiner name/id)```
-
 I've Encountered 3-4 Error's in Terraform I was able to solve all of them except 1
 
 This was the Error:
 <img src="public/img/screenshotgit1.png">
+
+Some Error's were solved by 
+Deleting the Docker Cotainers and images before applying Terraform Configuration using: ```docker rm (conatiner name/id)``` and ```docker rmi (conatiner name/id)```
+To check which conatiner's were running we use the command : ```docker ps``` and ```docker ps -a```
 
 
 
