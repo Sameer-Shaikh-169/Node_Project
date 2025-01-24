@@ -49,7 +49,9 @@ This was the Error:
 <img src="public/img/screenshotgit1.png">
 
 Some Error's were solved by 
+
 Deleting the Docker Cotainers and images before applying Terraform Configuration using: ```docker rm (conatiner name/id)``` and ```docker rmi (conatiner name/id)```
+
 To check which conatiner's were running we use the command : ```docker ps``` and ```docker ps -a```
 
 
