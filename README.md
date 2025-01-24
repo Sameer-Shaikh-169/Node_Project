@@ -25,6 +25,13 @@ I've used cAdvisor with Docker Compose for monitoring
 
 To run the Docker Compose File use this Command : ```docker-compose up --build```
 
+Here are the cAdvisor monitoring images:
+<img src="public/img/cAdv1.png">
+<img src="public/img/cAdv2.png">
+<img src="public/img/cAdv3.png">
+<img src="public/img/cAdv4.png">
+<img src="public/img/cAdv5.png">
+
 If you want to run only Docker use these Commands : ```docker build -t test```  (test is the image name you can name it wahtever you want) then use the command ```docker run -p 3000:3000 test``` (test is the name of the docker image we built)
 
 To run Terraform script first initialize with : ```terraform init```
