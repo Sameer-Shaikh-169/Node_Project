@@ -21,7 +21,10 @@ Now, cd in the node file and use : ```code .```
 
 Which will open the Vscode where it will be easier to run Docker and Terraform
 
-I've used cAdvisor with Docker Compose for monitoring
+I've used cAdvisor with Docker Compose for monitoring the resource usage (CPU, memory) of the
+running containers.
+
+We've used Docker Compose file to define and orchestrate the application's services
 
 To run the Docker Compose File use this Command : ```docker-compose up --build```
 
