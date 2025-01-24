@@ -36,6 +36,7 @@ Delete the Docker Cotainers before applying Terraform Configuration using: ```do
 I've Encountered an Error in Terraform which I was not able to solve
 
 This was the Error:
+<img src="public/img/screenshotgit1.png">
 
 
 
