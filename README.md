@@ -1,4 +1,4 @@
-# DevOps_Simple_Project
+# Node_Project
 A simple DevOps project made on Nodejs 
 Uses Docker for Containerizaton and Terraform for Iac 
 
